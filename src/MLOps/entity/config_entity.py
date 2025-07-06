@@ -27,11 +27,13 @@ class ModelTrainerConfig:
     root_dir: Path
     train_data_path: Path
     test_data_path: Path
+    target_column: str
     model_name: str
     alpha: float
     l1_ratio: float
     random_state: int
-    target_column: str
+    n_estimators: int
+    learning_rate: float
     
 @dataclass(frozen=True)
 class ModelEvaluationConfig:

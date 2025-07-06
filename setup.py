@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 __version__ = "0.0.1"
 
-REPO_NAME = "End-to-End-ML-PipeLine"
+REPO_NAME = "Chilly-Price-Predictor"
 AUTHOR_USER_NAME = "HasinthakaPiyumal"
 SRC_REPO = "MLOps"
 AUTHOR_EMAIL = "hasinthakapiyumal@gmail.com"
@@ -15,7 +15,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="End to End ML Pipeline for MLOps",
+    description="Chilly Price Predictor is a machine learning project that predicts the price of chilly based on various features.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

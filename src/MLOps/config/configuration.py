@@ -53,6 +53,8 @@ class ConfigurationManager:
             alpha=params.alpha,
             l1_ratio=params.l1_ratio,
             random_state=params.random_state,
+            n_estimators=params.n_estimators,
+            learning_rate=params.learning_rate,
             target_column=schema.name
         )
         

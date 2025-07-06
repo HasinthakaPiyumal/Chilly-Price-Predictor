@@ -2,7 +2,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_url: https://github.com/HasinthakaPiyumal/End-to-End-ML-PipeLine/raw/refs/heads/main/wine-data.zip
+  source_url: https://github.com/HasinthakaPiyumal/data-sets/raw/refs/heads/main/Green%20Chilly%20Prices%2021-25%20with%20Dorllar%20Rate.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
@@ -10,15 +10,15 @@ data_ingestion:
 data_validation:
   root_dir: artifacts/data_validation
   STATUS_FILE: artifacts/data_validation/status.txt
-  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
+  unzip_data_dir: artifacts\data_ingestion\Green Chilly Prices 21-25 with Dollar Rate.csv
 
 data_transformation:
   root_dir: artifacts/data_transformation
-  data_path: artifacts/data_ingestion/winequality-red.csv
+  data_path: artifacts\data_ingestion\Green Chilly Prices 21-25 with Dollar Rate.csv
 
 model_trainer:
   root_dir: artifacts/model_trainer
-  train_data_path: artifacts/data_transformation/train.csv
+  train_data_path: artifacts/data_transformation/full.csv
   test_data_path: artifacts/data_transformation/test.csv
   model_name: model.joblib
 

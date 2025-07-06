@@ -8,6 +8,11 @@ tqdm
 ensure==1.0.2
 joblib
 types-pyYAML
-Flask
-Flask-Cors
+fastapi 
+uvicorn
+xgboost
+tensorflow
+seaborn
+prophet
+cloudpickle
 -e .
