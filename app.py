@@ -26,7 +26,7 @@ Whether you're a **farmer**, **trader**, or **analyst**, this API can help you m
 
 ### Example:
 ```
-GET /forecast?periods=8&freq=W&&include_history=True&&start_from=2024-10-01
+POST /forecast?periods=8&freq=W&&include_history=True&&start_from=2024-10-01
 ```
 
 Returns predicted weekly prices for the next 8 weeks.
